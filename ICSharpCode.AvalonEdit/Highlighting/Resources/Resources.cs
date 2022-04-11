@@ -51,7 +51,7 @@ namespace ICSharpCode.AvalonEdit.Highlighting
 			hlm.RegisterHighlighting("PHP", new[] { ".php" }, "PHP-Mode.xshd");
 			hlm.RegisterHighlighting("Python", new[] { ".py", ".pyw" }, "Python-Mode.xshd");
 			hlm.RegisterHighlighting("TeX", new[] { ".tex" }, "Tex-Mode.xshd");
-			hlm.RegisterHighlighting("TSQL", new[] { ".sql" }, "TSQL-Mode.xshd");
+			hlm.RegisterHighlighting("TSQL", new[] { ".sql" }, "TSQL-Mode.xshd"); 
 			hlm.RegisterHighlighting("VB", new[] { ".vb" }, "VB-Mode.xshd");
 			hlm.RegisterHighlighting("XML", (".xml;.xsl;.xslt;.xsd;.manifest;.config;.addin;" +
 											 ".xshd;.wxs;.wxi;.wxl;.proj;.csproj;.vbproj;.ilproj;" +
@@ -61,6 +61,7 @@ namespace ICSharpCode.AvalonEdit.Highlighting
 			hlm.RegisterHighlighting("MarkDown", new[] { ".md" }, "MarkDown-Mode.xshd");
 			hlm.RegisterHighlighting("MarkDownWithFontSize", new[] { ".md" }, "MarkDownWithFontSize-Mode.xshd");
 			hlm.RegisterHighlighting("Json", new[] { ".json" }, "Json.xshd");
+			hlm.RegisterHighlighting("FGL-DEC", new[] { ".dec", ".fgl-dec" }, "Dec.xshd");
 		}
 	}
 }

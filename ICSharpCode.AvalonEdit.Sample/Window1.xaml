@@ -84,7 +84,7 @@
 			<avalonEdit:TextEditor
 				Name="textEditor"
 				FontFamily="Consolas"
-				FontSize="10pt"
+				FontSize="11pt"
 				SyntaxHighlighting="C#"
 			>Welcome to AvalonEdit!
 			</avalonEdit:TextEditor>
